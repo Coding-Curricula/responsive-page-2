@@ -53,10 +53,10 @@
   flex-direction: column;
 }
 
-.hero-text{
-    color: white;
-    text-align: center;
-    font-size: 40px;
+.hero-text {
+  color: white;
+  text-align: center;
+  font-size: 40px;
 }
 
 .contact-button {
@@ -92,6 +92,10 @@
     display: block;
   }
 
+  /* The `  .menu-icon:checked ~ .nav-links` selector is used to apply styles to the `.nav-links` element
+when the `.menu-icon` element is checked. In this case, it is used to display the navigation links
+when the hamburger menu icon is checked (clicked). The `display: flex;` property is used to make the
+navigation links visible. */
   .menu-icon:checked ~ .nav-links {
     display: flex;
   }
